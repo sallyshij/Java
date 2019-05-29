@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="administration.application.AdministrativeController">
+   <children>
+      <Button layoutX="473.0" layoutY="36.0" mnemonicParsing="false" onAction="#createItem" prefHeight="27.0" prefWidth="94.0" text="New Item" />
+      <TextField fx:id="type" layoutX="24.0" layoutY="36.0" prefHeight="27.0" prefWidth="110.0" promptText="Enter V or B" />
+      <TextField fx:id="title" layoutX="146.0" layoutY="36.0" prefHeight="27.0" prefWidth="222.0" promptText="Enter Title" />
+      <TextField fx:id="cost" layoutX="378.0" layoutY="36.0" prefHeight="27.0" prefWidth="82.0" promptText="Enter cost" />
+      <TextField fx:id="name" layoutX="24.0" layoutY="185.0" prefHeight="27.0" prefWidth="110.0" promptText="Name" />
+      <TextField fx:id="email" layoutX="144.0" layoutY="185.0" prefHeight="27.0" prefWidth="313.0" promptText="Email Address" />
+      <Button layoutX="473.0" layoutY="185.0" mnemonicParsing="false" onAction="#createPatron" prefHeight="27.0" prefWidth="94.0" text="New Patron" />
+      <Button layoutX="24.0" layoutY="334.0" mnemonicParsing="false" onAction="#check" prefHeight="27.0" prefWidth="165.0" text="Check Overdue items" />
+      <Button layoutX="476.0" layoutY="334.0" mnemonicParsing="false" onAction="#Remove" prefHeight="27.0" prefWidth="94.0" text="Remove" />
+      <TextField fx:id="lostId" layoutX="350.0" layoutY="334.0" prefHeight="27.0" prefWidth="118.0" promptText="Enter Lost ID" />
+      <Label fx:id="id" layoutX="25.0" layoutY="74.0" prefHeight="101.0" prefWidth="551.0" />
+      <Label fx:id="patronId" layoutX="25.0" layoutY="236.0" prefHeight="74.0" prefWidth="551.0" />
+      <Button layoutX="212.0" layoutY="334.0" mnemonicParsing="false" onAction="#ComputeFines" prefHeight="27.0" prefWidth="118.0" text="Compute Fines" />
+   </children>
+</AnchorPane>
