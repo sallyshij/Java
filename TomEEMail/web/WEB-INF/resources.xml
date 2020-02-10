@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <Resource id="jdbc/mail" type="javax.sql.DataSource">#Fri Feb 16 10:43:49 CST 2018
+jdbcDriver=com.mysql.jdbc.Driver
+password=ramin0919
+userName=root
+jdbcUrl=jdbc\:mysql\://localhost\:3306/mail?zeroDateTimeBehavior\=convertToNull
+</Resource>
+</resources>
